@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form action="">
+            <label for="">enter a quadratic equation ax^2+bx+c
+                <br>
+                <br>
+                a=<input id="a" type="text" /> <br> <br>
+                b=<input id="b" type="text" /> <br> <br>
+                c=<input id="c" type="text" /> <br> <br>
+            </label>
+            <button type="button" onclick="quadRoots()">ROOTS</button>
+        </form>
+    </section>
+    <script>
+        function quadRoots() {
+            let a = parseInt(document.getElementById("a").value)
+            let b = parseInt(document.getElementById("b").value)
+            let c = parseInt(document.getElementById("c").value)
+
+
+            let d = Math.pow(b, 2) - 4 * a * c;
+
+            if (d < 0) alert("Rots are imagnary");
+            else {
+                let x1 = (-b - Math.sqrt(d)) / 2 * a;
+                let x2 = (-b + Math.sqrt(d)) / 2 * a;
+
+                alert("Roots are: " + x1 + " and " + x2)
+            }
+
+            console.log(d)
+
+
+        }
+    </script>
+</body>
+
+</html>

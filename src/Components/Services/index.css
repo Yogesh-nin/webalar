@@ -1,0 +1,84 @@
+.service-container{
+  margin: 30px 50px 30px 50px;
+}
+
+.service {
+  padding: 64px 93px 64px 93px;
+  margin-top: 64px;
+}
+
+.service h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 64px;
+}
+
+.service h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 86px;
+}
+.service h4 {
+  font-family: "Playfair Display", serif;
+}
+
+.service-col.border-side {
+  border-right: 2px solid white;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-image: radial-gradient(#364f6b 0%, #d9d9d9 47.92%, #364f6b 100%);
+}
+
+.service-logo {
+  position: relative;
+}
+
+#rectangle2 {
+  position: absolute;
+  left: 7px;
+}
+#rectangle3 {
+  position: absolute;
+  left: 14px;
+}
+
+.service-row{
+  margin-bottom: 98px;
+}
+
+.slider{
+  padding: 10px 50px;
+}
+
+.service-hr{
+  border: 2px solid #D9D9D9; 
+  background-color: #D9D9D9; 
+  margin: 62px 0px;
+}
+
+@media (max-width: 576px){
+  .service-container{
+    margin: 0px 15px;
+  }
+  .service{
+    padding: 45px 15px 45px 15px;
+  }
+
+  .service h3 {
+    font-size: 30px;
+   line-height: 36px;
+  }
+
+  .service-hr{
+    margin-top: 30px;
+  }
+
+  .service-row{
+    margin-bottom: 45px;
+  }
+}

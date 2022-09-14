@@ -1,0 +1,62 @@
+.form-col {
+  background-color: #364f6b;
+  color: #ffffff;
+  border-radius: 24px;
+  padding: 44px;
+}
+
+.input,
+.input:active,
+.input:focus {
+  background: #394149;
+  border-radius: 8px;
+  border: #394149;
+}
+
+.contact-form-section {
+  padding: 50px 50px;
+}
+
+.contact-form-section h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 86px;
+  margin-bottom: 40px;
+
+  color: #364f6b;
+}
+.contact-form-section h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+
+  color: #333333;
+}
+
+.contact-form-section h3{
+    font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+@media (max-width: 576px){
+  .contact-form-section h2{
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .contact-form-section {
+    padding: 20px 15px;
+  }
+
+  .form-col{
+    padding: 20px;
+  }
+}
